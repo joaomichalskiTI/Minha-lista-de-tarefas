@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha Lista de Tarefas</title>
+        <style>
+            body
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Tarefas</h1>
+        <ul></ul>
+        <input>
+        <button onclick="add()">adicionar</button>
+
+        <script>
+
+            //estado da minha aplicação
+            
+            const tarefas = []
+
+
+            function add() {
+                const input = document.querySelector("input")
+                const tarefa = input.value
+                tarefas.push(tarefa) 
+                input.value = ""
+                render()
+
+            }
+
+            //toda vez que for criar uma 'function' voce pode por o nome QUE BEM ENTENDER. O nome de uma função
+            //é para identificar a ação que voce quer que seja efetuada no programa.
+
+            function render() {
+                const ul = document.querySelector("ul")
+                ul.innerHTML = null
+
+
+                tarefas.forEach(function (tarefa) {
+                const li = document.createElement("li")
+                li.innerText = tarefa
+                ul.appendChild(li)
+
+                }) 
+
+ 
+
+
+            }
+
+        </script>
+    </body>
+
+</html>
