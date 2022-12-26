@@ -3,16 +3,49 @@
     <head>
         <title>Minha Lista de Tarefas</title>
         <style>
-            body
-            
+        
+          * {
+            box-sizing: border border-box;
+            margin: 0;
+          }
+          body{
+            border: 10px solid green;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+          }
+
+          header {
+            border: 10px solid red;
+          }
+          main {
+            flex: auto;
+            border: 10px solid blue;
+          }
+
+         footer {
+            border: 10px solid blueviolet;
+         } 
+        
         </style>
     </head>
 
     <body>
-        <h1>Tarefas</h1>
-        <ul></ul>
-        <input>
-        <button onclick="add()">adicionar</button>
+     <header> 
+        <center><h1>Tarefas</h1></center>
+         
+        
+     </header>
+
+    <main>
+         <ul></ul>
+    </main>
+
+    <footer>
+         <input>
+         <button onclick="add()">adicionar</button>
+    </footer>
 
         <script>
 
