@@ -7,26 +7,54 @@
           * {
             box-sizing: border border-box;
             margin: 0;
+
+            
           }
           body{
-            border: 10px solid green;
+            box-sizing: border-box;
             min-height: 100vh;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 25px;
+            letter-spacing: 5px;
             display: flex;
             flex-direction: column;
+            background: darkgray;  
           }
 
           header {
-            border: 10px solid red;
+            padding: 15px;
+            color: aliceblue;
+
+            
           }
           main {
             flex: auto;
-            border: 10px solid blue;
-          }
+            font-family: cursive;
+            background: whitesmoke;
+            border-radius: 45px 45px;
+            margin: 10px;
 
+          }
+          main ul {
+            padding: 15; 
+            list-style: square;
+
+           }
+
+           main li {
+            border-bottom: 1px solid black;
+            padding: 5px 0;
+
+           }
          footer {
-            border: 10px solid blueviolet;
+            padding: 10px;
+            display: flex;
+          
+
          } 
+         footer input {
+          flex: auto;
+         }
         
         </style>
     </head>
