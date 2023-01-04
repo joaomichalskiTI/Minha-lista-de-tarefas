@@ -74,7 +74,7 @@ body
       background: #E0FFFF;
       box-shadow: inset 1.5px 1.5px 1.5px rgba(44, 43, 43, 0.669);
       text-shadow: none;
-
+      transition: 0.2s;
       
      }
      .limp{
@@ -87,5 +87,7 @@ body
       background: #E0FFFF;
       box-shadow: inset 1.5px 1.5px 1.5px rgba(44, 43, 43, 0.669);
       text-shadow: none;
+      transition: 0.2s;
+
      }
     
