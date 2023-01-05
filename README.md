@@ -1,2 +1,2 @@
 # Minha-lista-de-tarefas
-lista-de-tarefas-michalski.netlify.app
+https://lista-de-tarefas-michalski.netlify.app/
