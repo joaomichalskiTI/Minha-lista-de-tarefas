@@ -17,7 +17,7 @@ body
   }
 
   header {
-
+    text-align: center;
     padding: 30px;
     color: #B0E0E6;
     
@@ -31,7 +31,7 @@ body
     background: 	#B0E0E6;
     border-radius: 35px 35px;
     padding: 30px;
-    box-shadow: 12px 12px 3px 3px #778899;
+    box-shadow: 6px 6px 3px 3px #778899;
     
 
   }
@@ -81,7 +81,7 @@ body
  .limp{
   border-radius: 5px 5px;
   background: #F0FFFF;
-  margin-left: 2px;
+  margin-left: 4px;
 
 }
 .limp:hover {
