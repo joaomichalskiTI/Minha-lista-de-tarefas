@@ -1,2 +1,2 @@
 # Minha-lista-de-tarefas
-jm-lista-de-tarefas.netlify.app
+https://jm-lista-de-tarefas.netlify.app/
