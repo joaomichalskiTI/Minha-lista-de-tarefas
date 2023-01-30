@@ -4,34 +4,23 @@
 <html>
     <head>
         <title>Minha Lista de Tarefas</title>
-
-
     </head>
-
     <body>
      <header> 
       <h1>Tarefas</h1>
-
-        
      </header>
-
     <main>
          <ul></ul>
     </main>
-
     <footer>
          <input>
          <button class="adc" onclick="add()">adicionar</button>
          <button class="limp" onclick="limpar()">Limpar lista</button>
     </footer>
-
         <script>
-
-            //estado da minha aplicação
-            
+            //estado da minha aplicação  
             const tarefas = []
             const input = document.querySelector("input")
-
 
             function add()  {
                 if (input.value == ""){
@@ -44,9 +33,7 @@
                 input.value = ""
                 render()
                 }
-
             }
-
             //toda vez que for criar uma 'function' voce pode por o nome QUE BEM ENTENDER. O nome de uma função
             //é para identificar a ação que voce quer que seja efetuada no programa.
 
@@ -54,22 +41,17 @@
                 const ul = document.querySelector("ul")
                 ul.innerHTML = null
 
-
                 tarefas.forEach(function (tarefa) {
                 const li = document.createElement("li")
                 li.innerText = tarefa
                 ul.appendChild(li)
-
-                }) 
-
-            
+                })
             }
             
             function limpar() {
                 tarefas.length = 0;
                 render()
             }
-            
         </script>
     </body>
 
